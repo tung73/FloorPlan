@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartment 3D View</title>
+  </head>
+  <body>
+    <main id="app">
+      <section class="panel">
+        <p class="eyebrow">FloorPlan</p>
+        <h1>Apartment shell</h1>
+        <p>
+          First-pass Three.js model with 3m walls, room divisions, openings,
+          balcony railings, and the source plan available as a reference plane.
+        </p>
+        <dl>
+          <div>
+            <dt>Wall height</dt>
+            <dd>3.0m</dd>
+          </div>
+          <div>
+            <dt>Controls</dt>
+            <dd>Drag to orbit, scroll to zoom, right-drag to pan</dd>
+          </div>
+        </dl>
+      </section>
+      <canvas id="scene"></canvas>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
